@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Dev\\SouthFork_OutageTracker\\Client\\BlazorBasic.csproj": {}
+    "C:\\Dev\\SouthFork_OutageTracker\\Client\\BlazorBasic.csproj": {}
   },
   "projects": {
-    "c:\\Dev\\SouthFork_OutageTracker\\Client\\BlazorBasic.csproj": {
+    "C:\\Dev\\SouthFork_OutageTracker\\Client\\BlazorBasic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Dev\\SouthFork_OutageTracker\\Client\\BlazorBasic.csproj",
+        "projectUniqueName": "C:\\Dev\\SouthFork_OutageTracker\\Client\\BlazorBasic.csproj",
         "projectName": "BlazorBasic",
-        "projectPath": "c:\\Dev\\SouthFork_OutageTracker\\Client\\BlazorBasic.csproj",
+        "projectPath": "C:\\Dev\\SouthFork_OutageTracker\\Client\\BlazorBasic.csproj",
         "packagesPath": "C:\\Users\\josdonovan\\.nuget\\packages\\",
-        "outputPath": "c:\\Dev\\SouthFork_OutageTracker\\Client\\obj\\",
+        "outputPath": "C:\\Dev\\SouthFork_OutageTracker\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

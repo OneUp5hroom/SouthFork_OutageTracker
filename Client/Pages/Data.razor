@@ -1,0 +1,78 @@
+@using System.Net.Http
+@using System.Net.Http.Json
+@using System.Threading.Tasks
+@inject HttpClient Http
+
+@page "/data"
+
+<PageTitle>data</PageTitle>
+
+<!--<h1>Counter</h1>
+
+<p>Current count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>-->
+
+@if (todoItems == null)
+{
+    <p>No Items found.</p>
+}
+else
+{
+    <br />
+    <h3>Is the internet Currently Up?</h3>
+    @if (isUp(todoItems)) {
+        <h1 style="color:Green">YES</h1>
+    } else {
+        <h1 style="color:red">NO</h1>
+    }
+
+    <br />
+    <h3>History</h3>
+    <table>
+        <tr>
+            <th width="200px">Internet Up?</th>
+            <th width="600px">TimeStamp (UTC)</th>
+        </tr>
+        @foreach (var item in todoItems)
+        {
+            <tr>
+                <td>@item.LinkUp</td>
+                <td>@item.TableTimeStamp</td>
+                
+            </tr>
+            
+        }
+    </table>
+}
+
+@code {
+    private int currentCount = 0;
+    public class dataItem
+    {
+        public bool LinkUp { get; set; }
+        public string TableTimeStamp { get; set; }
+    }
+    
+    private dataItem[]? todoItems;
+    
+    [Parameter]
+    public int IncrementAmount { get; set; } = 1;
+
+    private void IncrementCount()
+    {
+        currentCount += IncrementAmount;
+    }
+
+    private bool isUp(dataItem[] todoItems) 
+    {
+        bool item = todoItems[todoItems.Length - 1].LinkUp;
+        if (item) {
+            return true;
+        }
+        return false;
+    }
+    
+    protected override async Task OnInitializedAsync() => 
+    todoItems = await Http.GetFromJsonAsync<dataItem[]>("api/Get-Data");
+}

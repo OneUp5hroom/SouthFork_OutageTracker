@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cjEnNmtGAhdXOY3RmlP02cSdXbxbhahPifKb5JEbjsdt12DiwHy7vL1o8PV+VEmEREwLmQosLTJi9s6Kjz1nkA==",
+  "dgSpecHash": "uy3AljGdNFjKUZAOHHHH8ID0zYiMR9qIJBAD1PIvTkxNXm8ZktKv4xVvz3RwrN8OwjbkZ/Ed/KzTfTcNg+kj+g==",
   "success": true,
-  "projectFilePath": "c:\\Dev\\SouthFork_OutageTracker\\Client\\BlazorBasic.csproj",
+  "projectFilePath": "C:\\Dev\\SouthFork_OutageTracker\\Client\\BlazorBasic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\josdonovan\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.2\\microsoft.aspnetcore.authorization.6.0.2.nupkg.sha512",
     "C:\\Users\\josdonovan\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.2\\microsoft.aspnetcore.components.6.0.2.nupkg.sha512",

@@ -8,39 +8,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 1052022487,
-        "Kind": "Components.Component",
-        "Name": "BlazorBasic.Pages.Index",
-        "AssemblyName": "BlazorBasic",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorBasic.Pages.Index"
-        }
-      },
-      {
-        "HashCode": -1994465931,
-        "Kind": "Components.Component",
-        "Name": "BlazorBasic.Pages.Index",
-        "AssemblyName": "BlazorBasic",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorBasic.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorBasic.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -2133361555,
         "Kind": "Components.Component",
         "Name": "BlazorBasic.App",
@@ -166,6 +133,39 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "BlazorBasic.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1052022487,
+        "Kind": "Components.Component",
+        "Name": "BlazorBasic.Pages.Index",
+        "AssemblyName": "BlazorBasic",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorBasic.Pages.Index"
+        }
+      },
+      {
+        "HashCode": -1994465931,
+        "Kind": "Components.Component",
+        "Name": "BlazorBasic.Pages.Index",
+        "AssemblyName": "BlazorBasic",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorBasic.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorBasic.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -13489,6 +13489,11 @@
     {
       "FilePath": "c:\\Dev\\SouthFork_OutageTracker\\Client\\App.razor",
       "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Dev\\SouthFork_OutageTracker\\Client\\Pages\\data.razor",
+      "TargetPath": "Pages\\data.razor",
       "FileKind": "component"
     },
     {
