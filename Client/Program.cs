@@ -13,7 +13,7 @@ builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.
 builder.Services.AddScoped(sp => 
     new HttpClient
     {
-        BaseAddress = new Uri("https://sfinternetoutage.azurewebsites.net/")
+        BaseAddress = new Uri("https://communitycableotapi.azurewebsites.net/")
 
     });
 await builder.Build().RunAsync();
